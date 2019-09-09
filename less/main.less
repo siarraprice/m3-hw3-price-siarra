@@ -1,15 +1,29 @@
 @import "variables.less";
 
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 nav {
   height: 100px;
   background: @yellow-primary;
 }
 
 h2 {
+  text-transform: uppercase;
   color: @black-secondary;
+    span {
+      color: @red-secondary;
+    }
 }
 
-.btn {
+.jumbotron {
+  background: url(../img/banner-bg.png);
+  background-size: cover;
+}
+
+button {
+  border: @yellow-primary;
   border-radius: 10px;
   background: @yellow-primary;
   text-transform: uppercase;
